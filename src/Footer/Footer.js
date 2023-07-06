@@ -40,7 +40,7 @@ function Footer() {
         </div>
         </div>
         <div className="footer__col">
-            <a href="#" className="footer__main-link">🔗 More Optimum Services</a>
+            <a href="https://optimumdevelopmentllc.com/" className="footer__main-link">🔗 More Optimum Services</a>
         </div>
       </div>
       {/* <div className="footer__bottom">

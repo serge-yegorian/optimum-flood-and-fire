@@ -8,7 +8,7 @@ function Header() {
                     <p className="header__description">Our team of skilled professionals specializes in turning disaster into opportunity, breathing new life into your cherished space</p>
                 </div>
                 <div className='header__image-div'>
-                    <img className="header__logo" src={require('../logo.png')}/>
+                    <img className="header__logo" src={require('../logo.png')} alt="logo"/>
                 </div>
             </header>
         </div>
