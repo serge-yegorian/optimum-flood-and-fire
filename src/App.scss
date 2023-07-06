@@ -1,5 +1,24 @@
+@use './dimensions.scss' as *;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+main {
+  padding: 1rem;
+  @include tablet {
+    padding: 2rem;
+  }
+}
+
+body {
+  // background-color: #d6251b;
+  background-image: linear-gradient(-150deg, #d6251b, hsla(280, 100%, 50%, 0.3));
+
+}
+
+html {
+  background-color: #111;
 }

@@ -1,13 +1,56 @@
-.header {
+@use '../dimensions.scss' as *;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem 1rem 0;
-    border-bottom: 2px solid black;
-    border-radius: 1rem;
+.header {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    @include desktop {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    &__background {
+        background-color: #F0F7FF;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    &__heading {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        @include desktop {
+            margin-bottom: 1rem;
+            margin-top: 0.5rem;
+            text-align: left;
+        }
+    }
+
+    &__description {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        line-height: 1.8rem;
+        @include desktop {
+            max-width: 600px;
+            margin: 0 auto 1rem;
+            text-align: left;
+        }
+    }
 
     &__logo {
         width: 100%;
+        
     }
+
+    &__image-div {
+        @include tablet {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+    }
+
 }

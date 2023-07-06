@@ -1,0 +1,76 @@
+@use '../dimensions.scss' as *;
+
+.footer {
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+
+    &__middle {
+        @include tablet {
+            display: flex;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__media {
+        display: flex;
+    }
+
+    &__media-li {
+        margin-right: 1rem;
+    }
+
+    &__col {
+        margin-bottom: 1.5rem;
+        @include tablet {
+            margin-bottom: 0;
+            margin-right: 2rem;
+        }
+    }
+
+    &__paragraph {
+        @include tablet {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__h {
+        margin-bottom: 0.5rem;
+        @include tablet{
+            
+        }
+    }
+
+    &__li {
+        margin-bottom: 0.3rem;
+        @include tablet {
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__a {
+        color: white;
+        text-decoration: none;
+    }
+
+    &__main-link {
+        color: #d6251b;
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
+    }
+
+    &__subheading {
+        @include tablet {
+            margin-top: 1rem;
+        }
+        
+    }
+}
+

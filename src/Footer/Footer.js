@@ -1,3 +1,4 @@
+import './Footer.scss'
 function Footer() {
   return (
     <footer className="footer">
@@ -8,9 +9,10 @@ function Footer() {
             Optimum Development & Construction is South Florida leading builder with a unique ability to transform a client’s vision. Specializing in Commercial & Residential New Construction and Renovations.
         </p>
         </div>
+        <div className='footer__middle'>
         <div className="footer__col">
+            <h3 className='footer__h'>Contact:</h3>
           <ul className="footer__list">
-            Contact:
             <li className="footer__li">
               <a
                 className="footer__a"
@@ -28,21 +30,22 @@ function Footer() {
           </ul>
         </div>
         <div className="footer__col">
-            <ul className="footer__list">
-                Media:
-                <li>instagram</li>
-                <li>facebook</li>
-                <li>linkedin</li>
-                <li>twitter</li>
+            <h3 className='footer__h'>Media:</h3>
+            <ul className="footer__list footer__media">
+                <li className="footer__li footer__media-li">instagram</li>
+                <li className="footer__li footer__media-li">facebook</li>
+                <li className="footer__li footer__media-li">linkedin</li>
+                <li className="footer__li footer__media-li">twitter</li>
             </ul>
         </div>
+        </div>
         <div className="footer__col">
-            <a href="#" className="footer__main-link">More Optimum Services</a>
+            <a href="#" className="footer__main-link">🔗 More Optimum Services</a>
         </div>
       </div>
-      <div className="footer__bottom">
+      {/* <div className="footer__bottom">
         <h4 className="footer__developer">Developed by Serge Yegorian</h4>
-      </div>
+      </div> */}
     </footer>
   );
 }
