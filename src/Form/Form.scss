@@ -1,10 +1,11 @@
 @use '../dimensions.scss' as *;
 
 .form {
-    margin-top: 2rem;
+    margin-top: 3rem;
     background-color: #F0F7FF;
     padding: 1rem;
     border-radius: 4px;
+    margin-bottom: 2rem;
     box-shadow: 0 0 10px #F0F7FF;
     @include tablet {
         margin-top: 3rem;
@@ -95,7 +96,7 @@
         border: none;
         @include desktop {
             margin-top: 2rem;
-            max-width: 20rem;
+            max-width: 15rem;
         }
     }
 

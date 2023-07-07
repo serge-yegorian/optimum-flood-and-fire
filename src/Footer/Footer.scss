@@ -4,11 +4,17 @@
     background-color: #111;
     color: white;
     padding: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+   
+
+    &__background {
+        background-color: #111;
+    }
 
     &__middle {
-        @include tablet {
-            display: flex;
-            margin-bottom: 2rem;
+        @include desktop {
+            display: block;
         }
     }
 
@@ -16,16 +22,27 @@
         display: flex;
     }
 
+    &__media-a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        padding: 0.3rem;
+    }
+
     &__media-li {
+        width: 3rem;
+        height: 3rem;
         margin-right: 1rem;
+        color: #d6251b;
+    }
+
+    &__img {
+        height: 100%;
+        width: 100%;
     }
 
     &__col {
-        margin-bottom: 1.5rem;
-        @include tablet {
-            margin-bottom: 0;
-            margin-right: 2rem;
-        }
+        margin-bottom: 2rem;
     }
 
     &__paragraph {
@@ -33,6 +50,7 @@
             font-size: 1.1rem;
             margin-bottom: 2rem;
         }
+
     }
 
     &__h {
@@ -48,6 +66,9 @@
             font-size: 0.8rem;
             margin-bottom: 0.5rem;
         }
+        @include desktop {
+            font-size: 1rem;
+        }
     }
 
     &__list {
@@ -55,7 +76,7 @@
     }
 
     &__a {
-        color: white;
+        color: #d6251b;
         text-decoration: none;
     }
 
@@ -67,10 +88,22 @@
     }
 
     &__subheading {
+        margin-bottom: 0.5rem;
         @include tablet {
             margin-top: 1rem;
         }
-        
+        @include desktop {
+            margin-top: 0;
+        }
+    }
+
+    &__top {
+        @include desktop {
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
     }
 }
 
