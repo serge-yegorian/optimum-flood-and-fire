@@ -8,7 +8,7 @@ function Header() {
                     <p className="header__description">Our team of skilled professionals specializes in turning disaster into opportunity, breathing new life into your cherished space</p>
                 </div>
                 <div className='header__image-div'>
-                    <a className='header__logo-link' href="https://optimumdevelopmentllc.com/" target="_blank">
+                    <a className='header__logo-link' href="https://optimumdevelopmentllc.com/" target="_blank" rel="noreferrer">
                         <img className="header__logo" src={require('../logo.png')} alt="logo"/>
                     </a>
                 </div>
