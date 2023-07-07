@@ -49,6 +49,27 @@
         position: relative;
     }
 
+    &__image--good {
+        border: 2px solid #00C853;
+        box-shadow: 0 0 5px #00C853;
+        
+    }
+
+    &__image--bad {
+        border: 2px solid #d6251b;
+        box-shadow: 0 0 5px #d6251b;
+    }
+
+    &__status--before {
+        border: 2px solid #d6251b;
+        box-shadow: 0 0 5px #d6251b;
+    }
+
+    &__status--after {
+        border: 2px solid #00C853;
+        box-shadow: 0 0 5px #00C853;
+    }
+
     &__status {
         position: absolute;
         padding: 0.5rem;
@@ -57,8 +78,6 @@
         z-index: 2;
         top: -0.5rem;
         right: -0.5rem;
-        border: 1px solid black;
-        box-shadow: 0 0 5px black;
         font-weight: bold;
         @include tablet {
             padding: 1rem 2rem;

@@ -19,12 +19,12 @@ function Hero() {
         </p>
         <div className="hero__images">
           <div className="hero__image-div">
-            <img className="hero__image" src={require("../square.jpeg")} alt="burned house before we fixed it"/>
-            <p className="hero__status">😨 Before</p>
+            <img className="hero__image hero__image--bad" src={require("../firebefore.jpeg")} alt="burned house before we fixed it"/>
+            <p className="hero__status hero__status--before">😨 Before</p>
           </div>
           <div className="hero__image-div">
-            <img className="hero__image" src={require("../square.jpeg")} alt="burned house after we fixed it"/>
-            <p className="hero__status">✅ After</p>
+            <img className="hero__image hero__image--good" src={require("../fireafter.jpeg")} alt="burned house after we fixed it"/>
+            <p className="hero__status hero__status--after">✅ After</p>
           </div>
         </div>
       </div>
@@ -45,12 +45,12 @@ function Hero() {
         </p>
         <div className="hero__images">
           <div className="hero__image-div">
-            <img className="hero__image" src={require("../square.jpeg")} alt="flooded house before we fixed it"/>
-            <p className="hero__status">😨 Before</p>
+            <img className="hero__image hero__image--bad" src={require("../floodbefore.jpeg")} alt="flooded house before we fixed it"/>
+            <p className="hero__status hero__status--before">😨 Before</p>
           </div>
           <div className="hero__image-div">
-            <img className="hero__image" src={require("../square.jpeg")} alt="flooded house after we fixed it"/>
-            <p className="hero__status">✅ After</p>
+            <img className="hero__image hero__image--good" src={require("../floodafter.jpeg")} alt="flooded house after we fixed it"/>
+            <p className="hero__status hero__status--after">✅ After</p>
           </div>
         </div>
       </div>
