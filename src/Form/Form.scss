@@ -16,6 +16,7 @@
     @include desktop {
         max-width: none;
         max-width: 900px;
+        margin-bottom: 1rem;
     }
 
     &__form {

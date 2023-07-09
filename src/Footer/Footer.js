@@ -33,10 +33,10 @@ function Footer() {
         <div className="footer__col">
             <h3 className='footer__h'>Media:</h3>
             <ul className="footer__list footer__media">
-                <li className="footer__li footer__media-li"><a className='footer__media-a' href="https://www.instagram.com/"><img className='footer__img' target="_blank" rel="noreferrer" src={require("../insta.png")} alt="instagram icon"/></a></li>
-                <li className="footer__li footer__media-li"><a className='footer__media-a' href="https://www.facebook.com/"><img className='footer__img' target="_blank" rel="noreferrer" src={require("../facebook.png")} alt="facebook icon"/></a></li>
-                <li className="footer__li footer__media-li"><a className='footer__media-a' href="https://www.twitter.com/"><img className='footer__img' target="_blank" rel="noreferrer" src={require("../twitter.png")} alt="twitter icon"/></a></li>
-                <li className="footer__li footer__media-li"><a className='footer__media-a' href="https://www.linkedin.com/"><img className='footer__img' target="_blank" rel="noreferrer" src={require("../linkedin.svg").default} alt="linkedIn icon"/></a></li>
+                <li className="footer__li footer__media-li"><a className='footer__media-a' href="https://www.instagram.com/optimumdevelopmentllc/" target="_blank" rel="noreferrer"><img className='footer__img' src={require("../insta.png")} alt="instagram icon"/></a></li>
+                <li className="footer__li footer__media-li"><a className='footer__media-a' href="https://www.facebook.com/optimumdevelopmentllc" target="_blank" rel="noreferrer"><img className='footer__img'  src={require("../facebook.png")} alt="facebook icon"/></a></li>
+                <li className="footer__li footer__media-li"><a className='footer__media-a' href="https://twitter.com/optimum_llc" target="_blank" rel="noreferrer"><img className='footer__img' src={require("../twitter.png")} alt="twitter icon"/></a></li>
+                <li className="footer__li footer__media-li"><a className='footer__media-a' href="https://www.linkedin.com/company/optimum-development-llc-florida/" target="_blank" rel="noreferrer"><img className='footer__img' src={require("../linkedin.svg").default} alt="linkedIn icon"/></a></li>
             </ul>
         </div>
         </div>
