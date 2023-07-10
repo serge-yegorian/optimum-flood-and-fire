@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer__col">
           <h3 className="footer__subheading">About Us:</h3>
           <p className="footer__paragraph">
-            <a className="footer__a" target="_blank" href="https://optimumdevelopmentllc.com/"> Optimum Development & Construction</a> is South Florida leading builder with a unique ability to transform a client’s vision. Specializing in Commercial & Residential New Construction and Renovations.
+            <a className="footer__a" target="_blank" rel="noreferrer" href="https://optimumdevelopmentllc.com/"> Optimum Development & Construction</a> is South Florida leading builder with a unique ability to transform a client’s vision. Specializing in Commercial & Residential New Construction and Renovations.
         </p>
         </div>
         <div className='footer__middle'>
@@ -42,7 +42,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer__bottom">
-        <h4 className="footer__developer">Developed by <a className='footer__developer-link' target="_blank" href='https://sergeyegorian.com/'> Serge Yegorian</a></h4>
+        <h4 className="footer__developer">Developed by <a className='footer__developer-link' target="_blank" rel="noreferrer" href='https://sergeyegorian.com/'> Serge Yegorian</a></h4>
       </div>
     </footer>
     </div>
