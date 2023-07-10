@@ -4,6 +4,7 @@
     background-color: #111;
     color: white;
     padding: 1rem;
+    padding-bottom: 0;
     max-width: 900px;
     margin: 0 auto;
    
@@ -112,6 +113,30 @@
             justify-content: space-between;
             margin: 0 auto;
         }
+    }
+
+    &__bottom {
+        padding: 0.5rem;
+        text-align: center;
+        background-color: #F0F7FF;
+        position: absolute;
+        width: 100vw;
+        left: 0;
+        color: #111;
+        z-index: 0;
+        box-shadow: 0 0 5px #F0F7FF;
+    }
+
+    &__developer-link {
+        text-decoration: none;
+        color: #d6251b;
+        padding: 0.5rem;
+        transition: 0.3s;
+        padding-left: 0;
+    }
+
+    &__developer-link:hover {
+        color: #ff251b;
     }
 }
 
