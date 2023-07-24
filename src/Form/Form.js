@@ -32,7 +32,7 @@ function Form() {
 
   return (
     <section className="form">
-      <h2 className="form__heading">🛠️ Let exprets help you:</h2>
+      <h2 className="form__heading">🛠️ Let exprets help:</h2>
       <form ref={formRef} className="form__form" onSubmit={sendEmail}>
         <div className="form__fields">
           <div className="form__div">
