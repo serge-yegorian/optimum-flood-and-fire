@@ -1,3 +1,4 @@
+import CTA from "../CTA/CTA";
 import Form from "../Form/Form";
 import Hero from "../Hero/Hero";
 import "./Home.scss";
@@ -6,6 +7,7 @@ function Home() {
     <>
     <Form/>
     <Hero/>
+    <CTA/>
     </>
   );
 }

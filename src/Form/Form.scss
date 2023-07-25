@@ -78,17 +78,9 @@
         }
     }
 
-    &__submit:enabled:hover {
+    &__submit:hover {
         background-color: #6E5494;
         color: white;
-        box-shadow: 0 0 5px #6E5494;
-    }
-
-    &__submit:disabled, &__submit:disabled:hover {
-        border: 1px solid #333;
-        color: #333;
-        cursor: initial;
-        background-color: transparent;
     }
 
     &__heading {
