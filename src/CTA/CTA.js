@@ -11,7 +11,7 @@ export default function CTA() {
                 </ul>
             </div>
                 <div className='cta__div'>
-                    <a className='cta__button' href='#'>Recover my house</a>
+                    <a className='cta__button' href='#header'>Recover my house</a>
                 </div>
         </section>
     )
