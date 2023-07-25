@@ -2,10 +2,9 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Form.scss";
+
 function Form() {
   const formRef = useRef();
-
-
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_ehb710n', 'template_tfoh52p', formRef.current, 'JofyiBISK_50XH6UG')
@@ -17,6 +16,7 @@ function Form() {
       });
       e.target.reset()
   };
+
 
 
   return (
@@ -33,7 +33,7 @@ function Form() {
               required
             />
             <div className="form__underline"></div>
-            <label className="form__label">Name</label>
+            <label className="form__label" htmlFor='name'>Name</label>
           </div>
           <div className="form__div">
             <input
@@ -44,7 +44,7 @@ function Form() {
               required
             />
             <div className="form__underline"></div>
-            <label className="form__label">Email</label>
+            <label className="form__label" htmlFor='email'>Email</label>
           </div>
           <div className="form__div">
             <input
@@ -55,7 +55,7 @@ function Form() {
               required
             />
             <div className="form__underline"></div>
-            <label className="form__label">Phone</label>
+            <label className="form__label" htmlFor='phone'>Phone</label>
           </div>
         </div>
         <div className="form__submit-div">
