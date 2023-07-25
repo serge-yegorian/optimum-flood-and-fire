@@ -3,6 +3,8 @@
 .header {
     padding: 1rem;
     padding-bottom: 2rem;
+    border: 1px solid #111;
+    background-color: #F0F7FF;
     @include desktop {
         display: flex;
         align-items: center;
@@ -11,15 +13,8 @@
         margin: 0 auto;
     }
 
-    &__background {
-        background-color: #F0F7FF;
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-    }
-
     &__heading {
-        font-size: 1.6rem;
-        text-align: center;
+        font-size: 2rem;
         margin-bottom: 1rem;
         @include desktop {
             margin-bottom: 0.5rem;
@@ -30,7 +25,6 @@
 
     &__description {
         margin-bottom: 1.5rem;
-        text-align: center;
         line-height: 1.4rem;
         @include desktop {
             max-width: 600px;

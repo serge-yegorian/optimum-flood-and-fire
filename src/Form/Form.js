@@ -1,21 +1,10 @@
-import { useState } from "react";
+
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Form.scss";
 function Form() {
-  const [isSubmitDisabled, setIsSubmitDisabled] = useState(true);
   const formRef = useRef();
 
-  const checkEmptyFields = () => {
-    const inputs = document.querySelectorAll(".form__input");
-    let isEmpty = false;
-    inputs.forEach((input) => {
-      if (input.value.trim() === "") {
-        isEmpty = true;
-      }
-    });
-    setIsSubmitDisabled(isEmpty);
-  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -32,12 +21,11 @@ function Form() {
 
   return (
     <section className="form">
-      <h2 className="form__heading">🛠️ Let exprets help:</h2>
+      <h2 className="form__heading">Let the Florida experts help:</h2>
       <form ref={formRef} className="form__form" onSubmit={sendEmail}>
         <div className="form__fields">
           <div className="form__div">
             <input
-              onChange={checkEmptyFields}
               id="name"
               name="name"
               className="form__input"
@@ -49,7 +37,6 @@ function Form() {
           </div>
           <div className="form__div">
             <input
-              onChange={checkEmptyFields}
               id="email"
               name="email"
               className="form__input"
@@ -61,7 +48,6 @@ function Form() {
           </div>
           <div className="form__div">
             <input
-              onChange={checkEmptyFields}
               id="phone"
               name="phone"
               className="form__input"
@@ -73,7 +59,7 @@ function Form() {
           </div>
         </div>
         <div className="form__submit-div">
-          <button disabled={isSubmitDisabled} className="form__submit">
+          <button className="form__submit">
             Submit
           </button>
         </div>

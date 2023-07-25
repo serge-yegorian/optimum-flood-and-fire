@@ -4,7 +4,7 @@ function Header() {
         <div className='header__background'>
             <header className="header">
                 <div className='header__text'>
-                    <h1 className="header__heading">Fire & Flood Restoration in Southeast Florida </h1>
+                    <h1 className="header__heading">Flood & Fire Restoration in Southeast Florida </h1>
                     <p className="header__description"><a className="header__a" target="_blank" rel="noreferrer" href="https://optimumdevelopmentllc.com/">Optimum Development & Construction</a> is South Florida leading builder with a unique ability to transform a client’s vision. Specializing in Commercial & Residential New Construction and Renovations.</p>
                 </div>
                 <div className='header__image-div'>

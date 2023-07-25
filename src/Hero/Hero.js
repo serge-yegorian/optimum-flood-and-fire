@@ -3,7 +3,7 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero__disaster">
-        <h2 className="hero__heading">🔥 Fire</h2>
+        <h2 className="hero__heading">Fire</h2>
         <p className="hero__description">
           When fire strikes, our dedicated experts guide you through the process
           of comprehensive fire restoration with precision and care. Assessing
@@ -20,16 +20,16 @@ function Hero() {
         <div className="hero__images">
           <div className="hero__image-div">
             <img className="hero__image hero__image--bad" src={require("../firebefore.jpeg")} alt="burned house before we fixed it"/>
-            <p className="hero__status hero__status--before">😨 Before</p>
+            <p className="hero__status hero__status--before">Before</p>
           </div>
           <div className="hero__image-div">
             <img className="hero__image hero__image--good" src={require("../fireafter.jpeg")} alt="burned house after we fixed it"/>
-            <p className="hero__status hero__status--after">✅ After</p>
+            <p className="hero__status hero__status--after">After</p>
           </div>
         </div>
       </div>
       <div className="hero__disaster">
-        <h2 className="hero__heading">💧 Flood</h2>
+        <h2 className="hero__heading">Flood</h2>
         <p className="hero__description">
           In the aftermath of a flood, our experienced team works diligently to
           restore your home to its pre-disaster condition with unwavering
@@ -46,11 +46,11 @@ function Hero() {
         <div className="hero__images">
           <div className="hero__image-div">
             <img className="hero__image hero__image--bad" src={require("../floodbefore.jpeg")} alt="flooded house before we fixed it"/>
-            <p className="hero__status hero__status--before">😨 Before</p>
+            <p className="hero__status hero__status--before">Before</p>
           </div>
           <div className="hero__image-div">
             <img className="hero__image hero__image--good" src={require("../floodafter.jpeg")} alt="flooded house after we fixed it"/>
-            <p className="hero__status hero__status--after">✅ After</p>
+            <p className="hero__status hero__status--after">After</p>
           </div>
         </div>
       </div>

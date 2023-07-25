@@ -3,15 +3,11 @@
 .footer {
     background-color: #111;
     color: white;
-    padding: 1rem;
     padding-bottom: 0;
     max-width: 900px;
     margin: 0 auto;
    
 
-    &__background {
-        background-color: #111;
-    }
 
     &__middle {
         @include desktop {
@@ -97,16 +93,16 @@
 
     &__subheading {
         margin-bottom: 0.5rem;
-        @include tablet {
-            margin-top: 1rem;
-        }
         @include desktop {
-            margin-top: 0;
             font-size: 1.3rem;
         }
     }
 
     &__top {
+        padding: 1rem;
+        @include tablet {
+            padding: 2rem;
+        }
         @include desktop {
             display: flex;
             gap: 1rem;
@@ -116,21 +112,18 @@
     }
 
     &__bottom {
-        padding: 0.5rem;
         text-align: center;
         background-color: #F0F7FF;
-        position: absolute;
-        width: 100vw;
-        left: 0;
+        border: 1px solid #111;
         color: #111;
-        z-index: 0;
-        box-shadow: 0 0 5px #F0F7FF;
+        padding: 0.5rem;
     }
 
     &__developer-link {
         text-decoration: none;
         color: #d6251b;
-        padding: 0.5rem;
+        padding: 0.5rem; 
+        padding-bottom: 0;
         transition: 0.3s;
         padding-left: 0;
     }

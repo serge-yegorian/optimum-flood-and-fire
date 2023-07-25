@@ -4,8 +4,8 @@ import "./Home.scss";
 function Home() {
   return (
     <>
-    <Hero/>
     <Form/>
+    <Hero/>
     </>
   );
 }
