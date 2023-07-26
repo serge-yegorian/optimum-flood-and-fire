@@ -114,9 +114,8 @@
     &__bottom {
         text-align: center;
         background-color: #F0F7FF;
-        border: 1px solid #111;
         color: #111;
-        padding: 0.5rem;
+        padding: 0.3rem;
     }
 
     &__developer-link {
@@ -125,7 +124,6 @@
         padding: 0.5rem; 
         padding-bottom: 0;
         transition: 0.3s;
-        padding-left: 0;
     }
 
     &__developer-link:hover {

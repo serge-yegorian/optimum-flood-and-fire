@@ -42,7 +42,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer__bottom">
-        <h4 className="footer__developer">Developed by <a className='footer__developer-link' target="_blank" rel="noreferrer" href='https://sergeyegorian.com/'> Serge Yegorian</a></h4>
+        <p className="footer__developer">Developed by <a className='footer__developer-link' target="_blank" rel="noreferrer" href='https://sergeyegorian.com/'> Serge Yegorian</a></p>
       </div>
     </footer>
     </div>
