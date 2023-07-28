@@ -10,7 +10,7 @@ export default function CTA() {
                     <li className='cta__item'><span className="cta__bold">Local Expertise:</span> Operating exclusively in Southeast Florida, we bring specialized knowledge to meet your region's unique needs</li>
                 </ul>
             </div>
-                <div className='cta__div'>
+                <div className='cta__div cta__div--cta'>
                     <a className='cta__button' href='#header'>Recover my house</a>
                 </div>
         </section>
